@@ -1,0 +1,103 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "rogfktheme",
+  "description": "A paragraph providing a full description of the project (on several lines...)",
+  "name": "rogfktheme: The Title of the Project",
+  "codeRepository": "https://github.com/MariusSwane/rogfktheme",
+  "issueTracker": "https://github.com/MariusSwane/rogfktheme/issues",
+  "license": "https://spdx.org/licenses/GPL-2.0",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.6.0 (2026-04-24)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Marius Swane",
+      "familyName": "Wishman",
+      "email": "marius.swane.wishman@rogfk.no",
+      "@id": "{{orcid}}"
+    }
+  ],
+  "copyrightHolder": [
+    {
+      "@type": "Person",
+      "givenName": "Marius Swane",
+      "familyName": "Wishman",
+      "email": "marius.swane.wishman@rogfk.no",
+      "@id": "{{orcid}}"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Marius Swane",
+      "familyName": "Wishman",
+      "email": "marius.swane.wishman@rogfk.no",
+      "@id": "{{orcid}}"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "knitr",
+      "name": "knitr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=knitr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rmarkdown",
+      "name": "rmarkdown",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "version": ">= 3.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": {
+    "SystemRequirements": null
+  },
+  "fileSize": "187.501KB",
+  "citation": [
+    {
+      "@type": "SoftwareSourceCode",
+      "datePublished": "2026",
+      "author": [
+        {
+          "@type": "Organization",
+          "name": "Wishman Marius Swane"
+        }
+      ],
+      "name": "rogfktheme: {An} {R} package to ...",
+      "url": "https://github.com/MariusSwane/rogfktheme",
+      "description": "R package version 0.0.0.9000"
+    }
+  ],
+  "readme": "https://github.com/MariusSwane/rogfktheme/blob/master/README.md"
+}
