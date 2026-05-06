@@ -2,7 +2,8 @@ citHeader("To cite rogfktheme in publications use:")
 
 bibentry(
   bibtype = "Manual",
-  title   = "rogfktheme: {An} {R} package to ...",
+  title   = "rogfktheme: {An} {R} package to conform to Rogaland Fylkeskommune
+  and my own graphic guidelines",
   author  = c(person("Wishman Marius Swane")),
   year    = "2026",
   note    = "R package version 0.0.0.9000",

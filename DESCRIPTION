@@ -1,18 +1,19 @@
 Package: rogfktheme
 Type: Package
-Title: The Title of the Project
+Title: RogFK Theme
 Version: 0.0.0.9000
 Authors@R: c(
     person(given   = "Marius Swane",
            family  = "Wishman",
            role    = c("aut", "cre", "cph"),
            email   = "marius.swane.wishman@rogfk.no",
-           comment = c(ORCID = "{{orcid}}")))
-Description: A paragraph providing a full description of the project (on 
-    several lines...)
+           ))
+Description: Et "theme" med fargepalett hentet fra/inspirert av 
+  fylkeskommunenes grafiske anbefalinger og ggplot theme med minimale og
+  objektivt optimale instillinger. 
 URL: https://github.com/MariusSwane/rogfktheme
 BugReports: https://github.com/MariusSwane/rogfktheme/issues
-License: GPL (>= 2)
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 8.0.0
@@ -22,3 +23,5 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+Imports:
+    ggplot2

@@ -4,9 +4,9 @@
 \name{rogfktheme-package}
 \alias{rogfktheme}
 \alias{rogfktheme-package}
-\title{rogfktheme: The Title of the Project}
+\title{rogfktheme: RogFK Theme}
 \description{
-A paragraph providing a full description of the project (on several lines...)
+Et "theme" med fargepalett hentet fra/inspirert av fylkeskommunenes grafiske anbefalinger og ggplot theme med minimale og objektivt optimale instillinger.
 }
 \seealso{
 Useful links:
@@ -17,11 +17,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Marius Swane Wishman \email{marius.swane.wishman@rogfk.no} (\href{https://orcid.org/{{orcid}}}{ORCID}) [copyright holder]
+\strong{Maintainer}: Marius Swane Wishman \email{marius.swane.wishman@rogfk.no} [copyright holder]
 
 Authors:
 \itemize{
-  \item Marius Swane Wishman \email{marius.swane.wishman@rogfk.no} (\href{https://orcid.org/{{orcid}}}{ORCID}) [copyright holder]
+  \item Marius Swane Wishman \email{marius.swane.wishman@rogfk.no} [copyright holder]
 }
 
 }
