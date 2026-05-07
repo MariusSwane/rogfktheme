@@ -23,20 +23,36 @@ coverage](https://github.com/MariusSwane/rogfktheme/actions/workflows/test-cover
 <a href="#get-started">Get started</a><br> •
 <a href="#long-form-documentations">Long-form documentations</a><br> •
 <a href="#citation">Citation</a><br> •
-<a href="#contributing">Contributing</a><br> •
-<a href="#acknowledgments">Acknowledgments</a><br> •
-<a href="#references">References</a>
 </p>
 
-## Overview
+## Oversikt
 
-The R package `rogfktheme`… **{{ DESCRIBE YOUR PACKAGE }}**
+R pakken `rogfktheme` er et "theme" med en fargepalett hentet fra/inspirert av
+  fylkeskommunenes grafiske anbefalinger og ggplot theme med minimale og
+  objektivt optimale instillinger. Pakken inkluderer også et quarto theme som
+  kan brukes ved å inkludere følgende i yamlen:
+  format:
+    html:
+      theme:
+        - package:rogfktheme/themes/rogfk.scss
+
+**NB:** Krever at RogFKs font
+"[Apercu](https://fontforfree.com/apercu-font-family/)" er innstallert.
 
 ## Features
 
-The main purpose of `rogfktheme` is to… **{{ DESCRIBE THE MAIN FEATURES
-}}**
+Pakken gir **fargepaletter** for kontrasterende farger for diskre/kategori data,
+kontinuerlig data (antall nyanser tilpasses automatisk) og pastell-variant av
+fargepletten som egner seg til å fylle flater med ønsket farge.
 
+Den gir også et **ggplot theme** med fornuftige og minimale settings.
+
+Sist men ikke minst inkluderer pakken et **quarto theme** med matchende
+fargepalett og font.
+
+<img src="inst/palette_previews/discrete.png"/>
+<img src="inst/palette_previews/continuous.png"/>
+<img src="inst/palette_previews/fill.png"/>
 ## Installation
 
 You can install the development version from
@@ -61,39 +77,9 @@ For an overview of the main features of `rogfktheme`, please read the
 started](https://MariusSwane.github.io/rogfktheme/articles/rogfktheme.html)
 vignette.
 
-## Long-form documentations
-
-`rogfktheme` provides **{{ NUMBER OF VIGNETTES }}** vignettes to learn
-more about the package:
-
-- the [Get
-  started](https://MariusSwane.github.io/rogfktheme/articles/rogfktheme.html)
-  vignette describes the core features of the package
-- **{{ LIST ADDITIONAL VIGNETTES }}**
-
 ## Citation
 
 Please cite `rogfktheme` as:
 
-> Wishman Marius Swane (2026) rogfktheme: An R package to **{{ TITLE
-> }}**. R package version 0.0.0.9000.
+> Wishman Marius Swane (2026) rogfktheme. R package version 0.0.0.9000.
 > <https://github.com/MariusSwane/rogfktheme/>
-
-## Contributing
-
-All types of contributions are encouraged and valued. For more
-information, check out our [Contributor
-Guidelines](https://github.com/MariusSwane/rogfktheme/blob/main/CONTRIBUTING.md).
-
-Please note that the `rogfktheme` project is released with a
-[Contributor Code of
-Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
-By contributing to this project, you agree to abide by its terms.
-
-## Acknowledgments
-
-**{{ OPTIONAL SECTION }}**
-
-## References
-
-**{{ OPTIONAL SECTION }}**
