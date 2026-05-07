@@ -71,21 +71,21 @@
 <!-- badges: start -->
 
 <p align="left">
-• <a href="#overview">Overview</a><br> • <a href="#features">Features</a><br> • <a href="#installation">Installation</a><br> • <a href="#get-started">Get started</a><br> • <a href="#long-form-documentations">Long-form documentations</a><br> • <a href="#citation">Citation</a><br> • <a href="#contributing">Contributing</a><br> • <a href="#acknowledgments">Acknowledgments</a><br> • <a href="#references">References</a>
+• <a href="#overview">Overview</a><br> • <a href="#features">Features</a><br> • <a href="#installation">Installation</a><br> • <a href="#get-started">Get started</a><br> • <a href="#long-form-documentations">Long-form documentations</a><br> • <a href="#citation">Citation</a><br> •
 </p>
 <div class="section level2">
-<h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
+<h2 id="oversikt">Oversikt<a class="anchor" aria-label="anchor" href="#oversikt"></a>
 </h2>
-<p>The R package <code>rogfktheme</code>… <strong>{{ DESCRIBE YOUR PACKAGE }}</strong></p>
+<p>R pakken <code>rogfktheme</code> er et “theme” med en fargepalett hentet fra/inspirert av fylkeskommunenes grafiske anbefalinger og ggplot theme med minimale og objektivt optimale instillinger. Pakken inkluderer også et quarto theme som kan brukes ved å inkludere følgende i yamlen: format: html: theme: - package:rogfktheme/themes/rogfk.scss</p>
+<p><strong>NB:</strong> Krever at RogFKs font “<a href="https://fontforfree.com/apercu-font-family/" class="external-link">Apercu</a>” er innstallert.</p>
 </div>
 <div class="section level2">
 <h2 id="features">Features<a class="anchor" aria-label="anchor" href="#features"></a>
 </h2>
-<p>The main purpose of <code>rogfktheme</code> is to… <strong>{{ DESCRIBE THE MAIN FEATURES }}</strong></p>
-</div>
-<div class="section level2">
-<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
-</h2>
+<p>Pakken gir <strong>fargepaletter</strong> for kontrasterende farger for diskre/kategori data, kontinuerlig data (antall nyanser tilpasses automatisk) og pastell-variant av fargepletten som egner seg til å fylle flater med ønsket farge.</p>
+<p>Den gir også et <strong>ggplot theme</strong> med fornuftige og minimale settings.</p>
+<p>Sist men ikke minst inkluderer pakken et <strong>quarto theme</strong> med matchende fargepalett og font.</p>
+<p><img src="inst/palette_previews/discrete.png"><img src="inst/palette_previews/continuous.png"><img src="inst/palette_previews/fill.png"> ## Installation</p>
 <p>You can install the development version from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="do">## Install &lt; remotes &gt; package (if not already installed) ----</span></span>
 <span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="cf">if</span> (<span class="sc">!</span><span class="fu">requireNamespace</span>(<span class="st">"remotes"</span>, <span class="at">quietly =</span> <span class="cn">TRUE</span>)) {</span>
@@ -103,37 +103,12 @@
 <p>For an overview of the main features of <code>rogfktheme</code>, please read the <a href="https://MariusSwane.github.io/rogfktheme/articles/rogfktheme.html" class="external-link">Get started</a> vignette.</p>
 </div>
 <div class="section level2">
-<h2 id="long-form-documentations">Long-form documentations<a class="anchor" aria-label="anchor" href="#long-form-documentations"></a>
-</h2>
-<p><code>rogfktheme</code> provides <strong>{{ NUMBER OF VIGNETTES }}</strong> vignettes to learn more about the package:</p>
-<ul>
-<li>the <a href="https://MariusSwane.github.io/rogfktheme/articles/rogfktheme.html" class="external-link">Get started</a> vignette describes the core features of the package</li>
-<li><strong>{{ LIST ADDITIONAL VIGNETTES }}</strong></li>
-</ul>
-</div>
-<div class="section level2">
 <h2 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
 </h2>
 <p>Please cite <code>rogfktheme</code> as:</p>
 <blockquote>
-<p>Wishman Marius Swane (2026) rogfktheme: An R package to <strong>{{ TITLE }}</strong>. R package version 0.0.0.9000. <a href="https://github.com/MariusSwane/rogfktheme/" class="external-link uri">https://github.com/MariusSwane/rogfktheme/</a></p>
+<p>Wishman Marius Swane (2026) rogfktheme. R package version 0.0.0.9000. <a href="https://github.com/MariusSwane/rogfktheme/" class="external-link uri">https://github.com/MariusSwane/rogfktheme/</a></p>
 </blockquote>
-</div>
-<div class="section level2">
-<h2 id="contributing">Contributing<a class="anchor" aria-label="anchor" href="#contributing"></a>
-</h2>
-<p>All types of contributions are encouraged and valued. For more information, check out our <a href="https://github.com/MariusSwane/rogfktheme/blob/main/CONTRIBUTING.md" class="external-link">Contributor Guidelines</a>.</p>
-<p>Please note that the <code>rogfktheme</code> project is released with a <a href="https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
-</div>
-<div class="section level2">
-<h2 id="acknowledgments">Acknowledgments<a class="anchor" aria-label="anchor" href="#acknowledgments"></a>
-</h2>
-<p><strong>{{ OPTIONAL SECTION }}</strong></p>
-</div>
-<div class="section level2">
-<h2 id="references">References<a class="anchor" aria-label="anchor" href="#references"></a>
-</h2>
-<p><strong>{{ OPTIONAL SECTION }}</strong></p>
 </div>
 </div>
   </div>
