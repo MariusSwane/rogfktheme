@@ -12,8 +12,7 @@ Check](https://github.com/MariusSwane/rogfktheme/actions/workflows/R-CMD-check.y
 [![Test
 coverage](https://github.com/MariusSwane/rogfktheme/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/MariusSwane/rogfktheme/actions/workflows/test-coverage.yaml)
 [![codecov](https://codecov.io/gh/MariusSwane/rogfktheme/branch/master/graph/badge.svg)](https://codecov.io/gh/MariusSwane/rogfktheme)
-[![License: GPL (&gt;=
-2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
+[![License: GPL-3](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-3.0/)
 <!-- badges: end -->
 
 <p align="left">
@@ -21,8 +20,7 @@ coverage](https://github.com/MariusSwane/rogfktheme/actions/workflows/test-cover
 <a href="#features">Features</a><br> •
 <a href="#installation">Installation</a><br> •
 <a href="#get-started">Get started</a><br> •
-<a href="#long-form-documentations">Long-form documentations</a><br> •
-<a href="#citation">Citation</a><br> •
+<a href="#citation">Citation</a><br>
 </p>
 
 ## Oversikt
