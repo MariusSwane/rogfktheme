@@ -7,8 +7,8 @@ rogfk_pal <- function(type = "discrete") {
     "#252A35", "#25317A", "#0069B4", "#5FC4E5", "#EFECE6"
   )
   fill <- c(
-    "#80B4DAFF", "#93D6BCFF", "#FFD4FDFF", "#C3BAF1FF", "#FFA597FF",
-    "#9298BDFF", "#AFE2F2FF", "#ECFFD1FF", "#D7F1F9FF", "#8FA5A2FF"
+    "#80B4DAFF", "#93D6BCFF", "#ECFFD1FF", "#C3BAF1FF", "#FFA597FF",
+    "#9298BDFF", "#AFE2F2FF", "#D7F1F9FF", "#FFD4FDFF", "#8FA5A2FF"
   )
   if (type == "discrete") {
     return(discrete)
